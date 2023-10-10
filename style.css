@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* section hero */
+.hero{
+background-image: url(photoprof/imagesectionhero.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-color: lightgray ;
+height: 100vh;
+}
+header{
+   
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    
+}
+nav{
+    margin-top: 1%; 
+}
+ul{
+    display: flex;
+    gap: 35px;
+    padding: 0 8px;
+}
+li{
+    list-style: none;
+}
+ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.logo img{
+    margin-left: 18%;
+    margin-top: 3%;
+    width: 50%;
+}
+.hero2{
+  /* background-color: rgb(202, 202, 27); */
+  width:600px;
+  color: #fff;
+margin-top: 6%;
+margin-left: 5%;
+}
+h1{
+    font-size: 60px;
+   
+}
+.pahero{
+    font-size: 21px;
+    margin-bottom: 20px;
+
+}
+.oerderhero{
+    background-color: #B77E66;
+    color: #fff;
+    padding: 13px 18%;
+    border-radius: 8px;
+    border: none;
+    margin: 15px 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+/* fin section hero */
+/* section welcom  */
+.welcom{
+    background-image: url(photoprof/welcom.png);
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+    width: 100%;
+     height: 85vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.contentwelcom {
+    width: 30%;
+    margin-left: 35%;
+    float: right;
+}
+.contentwelcom h2{
+    color: #471E22;
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+.contentwelcom p{
+    color: #533B2F;
+    margin-bottom: 30px;
+   
+}
+
+.btnwelc{
+    background-color: #B77E66;
+    color: #fff;
+    padding: 8px 7%;
+    border-radius: 8px;
+    border: none;
+    float: right;
+    font-size: 12px;
+    font-weight: 500;
+
+}
+
+/* fin section wlecom */
+/* serction Opening_heues */
+.Opening_heues{
+    background-image: url(photoprof/onheure.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
+.contaire_herue{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+   
+    gap: 80px;
+}
+.contaire_herue p,.contaire_herue h2 {
+    font-family: 'Irish Grover';
+  
+}
+.contaire_herue p{
+    font-size: 25px;
+    color: #ffff;
+}
+.somaine{
+margin-bottom: 6px;
+}
+.opeintext{
+border-radius: 10px;
+background: rgba(34, 27, 24, 0.60);
+color: #FFF;
+padding: 34px 44px;
+font-size: 40px;
+font-weight: 400;
+
+}
+.herue{
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    width: 30%;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  
+
+}
+/* Opening_heues */
+/* our Menu */
+.menu{
+    width: 100%;
+    height: 120vh;
+    background-image: url(photoprof/menu.png);
+    background-position: center;
+    background-size: cover;
+
+    
+}
+.our_Menu{
+    text-align: center;
+    padding: 45px 0;
+}
+.our_Menu a{
+text-decoration: none;
+color: #903711;
+font-size: 50px;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+}
+.container_menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    gap: 30px;
+}
+.CradMenu{
+    width: 260px;
+    border-radius: 20px;
+    padding: 15px 1% 0;
+    background-color: #734A39;
+}
+.CradMenu img{
+    border-radius: 20px;
+    width: 100%;
+  
+}
+.CradMenu .Menuproduct{
+    color: #FFF;
+    padding: 10px 0;
+}
+.meunMony{
+    color: #fff;
+    text-align: center;
+    padding: 40px  0;
+}
+.CradMenu p{
+color: #FFFADA;
+font-size: 12px;
+font-weight: 300;
+line-height: 21px; 
+letter-spacing: 0.24px;
+}
+/* fin Menu */
+/* costumres */
+.costumes{
+    background-image: url(photoprof/costumers.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.whtcostm{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    padding: 6% 0;
+  
+
+}
+.cintent{
+    color: #fff;
+    font-family: Lexend;
+   font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; 
+}
+.line{
+width: 226px;
+height: 1px;
+background: #D3D2D2;
+}
+.cards-custmer{
+ display: flex;
+justify-content: center;
+align-items: center;
+gap: 28px;
+}
+.card-cost{
+    width: 335px;
+height: 350px;
+    border-radius: 5px;
+background: rgba(88, 49, 21, 0.57);
+box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.25);
+text-align: center;
+}
+.card-cost h3{
+    font-family: 'Lexend';
+    color: #fff;
+    text-align: center;
+    width: 55%;
+    margin: 0 25%;
+    padding-top: 10%;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 150%;
+    /* background-color: #903711; */
+}
+.card-cost p{
+    color: #D3CECE;
+    font-family: 'Lexend', sans-serif;
+    font-size: 20px;
+    line-height: 150%; 
+    padding-bottom: 10%;
+}
+.card-cost span{
+    color: #54DD8B;
+    font-family: 'Lexend';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+    
+}
+/* fin coustmer */
+/* localisation */
+.localisation{
+    background: #E3D9D5;
+     height: 300px;
+     position: relative;
+}
+
+iframe{
+ border: 2px solid #533B2F;
+    margin: 20px 24px;
+    width: 96%;
+    height: 250px;
+}
+/* fin localisation */
