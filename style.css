@@ -9,11 +9,11 @@
 
 /* section hero */
 .hero{
-background-image: url(photoprof/imagesectionhero.png);
+background-image: url(img/imagesectionhero.png);
 background-size: cover;
 background-repeat: no-repeat;
 background-color: lightgray ;
-height: 100vh;
+height: 60vh;
 }
 header{
    
