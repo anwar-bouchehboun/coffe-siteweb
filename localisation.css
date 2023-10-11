@@ -9,7 +9,7 @@
 
 /* section hero */
 .hero{
-background-image: url(img/pexels-vincent-rivaud-3838629.jpg);
+background-image: url(photoprof/local2.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
@@ -74,6 +74,10 @@ h1{
     font-size: 15px;
     font-weight: bold;
 }
+.oerderhero:hover{
+    background-color:#ffff ;
+    color: #B77E66;
+}
 /* fin section hero */
 /* costumres */
 .costumes{
@@ -102,7 +106,7 @@ font-weight: 700;
 line-height: 150%; 
 }
 .line{
-width: 226px;
+width: 165px;
 height: 1px;
 background: #D3D2D2;
 }
