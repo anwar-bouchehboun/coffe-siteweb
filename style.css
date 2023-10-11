@@ -20,6 +20,7 @@ header{
     display: flex;
     height: 100px;
     justify-content: space-between;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.80) 0%, rgba(0, 0, 0, 0.00) 100%);
     
 }
 nav{
