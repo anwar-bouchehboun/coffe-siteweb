@@ -38,6 +38,10 @@ ul>li>a{
     text-decoration: none;
     color: #fff;
 }
+ul > li > a:hover {
+
+    color: #B47A37;
+}
 .logo img{
     margin-left: 18%;
     margin-top: 3%;
@@ -68,6 +72,10 @@ h1{
     margin: 15px 0;
     font-size: 15px;
     font-weight: bold;
+}
+.oerderhero:hover{
+color:#B77E66 ;
+background-color: #ffff;
 }
 /* fin section hero */
 /* section welcom  */
@@ -109,7 +117,10 @@ h1{
     font-weight: 500;
 
 }
-
+.btnwelc:hover{
+    color:#B77E66;
+    background-color: #ffff;
+}
 /* fin section wlecom */
 /* serction Opening_heues */
 .Opening_heues{

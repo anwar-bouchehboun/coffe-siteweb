@@ -38,6 +38,10 @@ ul>li>a{
     text-decoration: none;
     color: #fff;
 }
+ul > li > a:hover {
+
+    color: #B47A37;
+}
 .logo img{
     margin-left: 18%;
     margin-top: 3%;
@@ -88,7 +92,7 @@ input{
     margin-bottom: 20px;
     text-transform: capitalize;
     font-family: 'Poetsen One', sans-serif;                                        
-    font-size: 27px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -96,24 +100,33 @@ input{
     border-radius: 20px;
     background: #FFF;
     padding-left: 20px;
-    padding-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 15px;
     outline: none;
+   
 }
 input::placeholder {
     color: #161313;
     
 }
 .msg{
- padding-top: 0;
+ padding-top: 10px;
  padding-bottom: 25%;
 }
-.btn{
+
+.btn {
     margin-top: 10%;
     background: #B47A37;
     text-align: center;
-    padding-top: 0;
-    padding-left: 0;
+    color: #ffffff; 
+    padding: 10px 20px; 
 }
+
+.btn:hover {
+    color: #B47A37;
+    background-color: #ffffff;
+}
+
 /* fin contact */
 /* footer */
 footer {

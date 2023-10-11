@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* section hero */
+.hero{
+    background-image: url(photoprof/onheure.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+background-color: lightgray ;
+
+}
+header{
+   
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.80) 0%, rgba(0, 0, 0, 0.00) 100%);
+    
+}
+nav{
+    margin-top: 1%; 
+}
+ul{
+    display: flex;
+    gap: 35px;
+    padding: 0 8px;
+}
+li{
+    list-style: none;
+}
+ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+ul > li > a:hover {
+
+    color: #B47A37;
+}
+.logo img{
+    margin-left: 18%;
+    margin-top: 3%;
+    width: 50%;
+}
+/* serction Opening_heues */
+.Opening_heues{
+  
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
+.contaire_herue{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+   
+    gap: 80px;
+}
+.contaire_herue p,.contaire_herue h2 {
+    font-family: 'Irish Grover';
+  
+}
+.contaire_herue p{
+    font-size: 25px;
+    color: #ffff;
+}
+.somaine{
+margin-bottom: 6px;
+}
+.opeintext{
+border-radius: 10px;
+background: rgba(34, 27, 24, 0.60);
+color: #FFF;
+padding: 34px 44px;
+font-size: 40px;
+font-weight: 400;
+
+}
+.herue{
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    width: 30%;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  
+
+}
+/* Opening_heues */
+/* our Menu */
+.menu{
+    width: 100%;
+    height: 150vh;
+    background-image: url(photoprof/menu.png);
+    background-position: center;
+    background-size: cover;
+
+    
+}
+.our_Menu{
+    text-align: center;
+    padding: 20px 0;
+}
+.menu .menuprof{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+   
+}
+.menu .menuprof .links{
+ 
+    padding: 1% 3% ;
+}
+
+.menu .menuprof .links a {
+    text-decoration: none;
+    color: #ffff;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.menu .menuprof .links a.active {
+    color: #734A39;
+}
+
+
+
+.our_Menu a{
+text-decoration: none;
+color: #903711;
+font-size: 50px;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+-webkit-text-stroke:1.4px #FFF;
+}
+.container_menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 3% 0;
+    gap: 30px;
+
+}
+.CradMenu{
+    width: 600px;
+    height: 200px;
+    border-radius: 20px;
+    /* padding: 15px 1% 0; */
+    padding: 0px 1% 0;
+    background-color: #734A39;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.CradMenu .content{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+       /* verfication width  */
+    flex-basis: 50%;
+}
+.prix{
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: space-around;
+    gap: 40px;
+    margin-bottom: 13px;
+    margin-right: 85px;
+}
+.CradMenu img{
+    border-radius: 20px;
+    /* width: 100%; */
+    width: 80%;
+    /* background-size: cover;
+    background-position: center; */
+    height: 149px;
+    /* verfication width  */
+    flex-basis: 50%;
+
+  
+}
+.pargraphe{
+    width: 100%;
+    display: flex;
+    height: 60%;
+}
+.CradMenu .Menuproduct{
+    color: #FFF;
+    /* padding: 10px 0; */
+}
+.meunMony{
+    color: #fff;
+    text-align: center;
+    /* padding: 40px  0; */
+}
+.CradMenu p{
+color: #FFFADA;
+font-size: 12px;
+font-weight: 300;
+line-height: 21px; 
+letter-spacing: 0.24px;
+} 
+/* fin Menu */
+/* footer */
+footer {
+    background-image: url('photoprof/FOOTERIMAGE.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     position: relative;
+   
+}
+footer .background{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: rgba(29, 23, 20, 0.84);
+}
+footer .container{
+    display: flex;
+    justify-content: center;
+  margin: 10%;
+  z-index: 1;
+}
+.footer-hero{
+    display: flex;
+ justify-content: center;
+ align-items: center;
+    gap: 160px;
+    width: 100%;
+   
+}
+.card-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+   
+}
+.card-footer a{
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2.3px;
+    text-transform: capitalize;
+}
+.footerparg{
+    z-index: 1 ;
+}
+.footerparg p{
+    color: #ffff;
+    margin-top: 10%;
+  
+}
+
+
+/* fin footer */
