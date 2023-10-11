@@ -47,10 +47,11 @@ ul>li>a{
 /* contact */
 .contact{
     width: 100%;
-    height: 120vh;
+    height: 130vh;
     background-image: url(photoprof/menu.png);
     background-position: center;
     background-size: cover;
+
 
     
 }
@@ -58,4 +59,116 @@ ul>li>a{
     text-align: center;
     padding: 45px 0;
 }
+.contact-us  a{
+    text-decoration: none;
+    color: #903711;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    -webkit-text-stroke:1.4px #FFF;
+    }
+
+.contact .container {
+    border-radius: 20px;
+    background: rgba(115, 74, 57, 0.88);
+    box-shadow:  rgba(0, 0, 0, 0.25);
+    width: 400px;
+    height: 500px;
+    padding-top: 30px;
+    margin: 0 auto;
+
+}
+form{
+   height: 100%;
+}
+input{
+    width: 80%;
+    margin: 0 10%;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    font-family: 'Poetsen One', sans-serif;                                        
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    border-radius: 20px;
+    background: #FFF;
+    padding-left: 20px;
+    padding-top: 5px;
+    outline: none;
+}
+input::placeholder {
+    color: #161313;
+    
+}
+.msg{
+ padding-top: 0;
+ padding-bottom: 25%;
+}
+.btn{
+    margin-top: 10%;
+    background: #B47A37;
+    text-align: center;
+    padding-top: 0;
+    padding-left: 0;
+}
 /* fin contact */
+/* footer */
+footer {
+    background-image: url('photoprof/FOOTERIMAGE.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     position: relative;
+   
+}
+footer .background{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: rgba(29, 23, 20, 0.84);
+}
+footer .container{
+    display: flex;
+    justify-content: center;
+  margin: 10%;
+  z-index: 1;
+}
+.footer-hero{
+    display: flex;
+ justify-content: center;
+ align-items: center;
+    gap: 160px;
+    width: 100%;
+   
+}
+.card-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+   
+}
+.card-footer a{
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2.3px;
+    text-transform: capitalize;
+}
+.footerparg{
+    z-index: 1 ;
+}
+.footerparg p{
+    color: #ffff;
+    margin-top: 10%;
+  
+}
+
+
+/* fin footer */

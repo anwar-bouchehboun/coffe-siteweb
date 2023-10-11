@@ -9,11 +9,11 @@
 
 /* section hero */
 .hero{
-background-image: url(img/imagesectionhero.png);
+background-image: url(photoprof/imagesectionhero.png);
 background-size: cover;
 background-repeat: no-repeat;
 background-color: lightgray ;
-height: 60vh;
+height: 110vh;
 }
 header{
    
@@ -183,6 +183,7 @@ font-size: 50px;
 font-weight: 400;
 line-height: normal;
 text-transform: capitalize;
+-webkit-text-stroke:1.4px #FFF;
 }
 .container_menu{
     display: flex;
