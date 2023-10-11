@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* section hero */
+.hero{
+background-image: url(img/pexels-vincent-rivaud-3838629.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-color: lightgray ;
+height: 110vh;
+}
+header{
+   
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.80) 0%, rgba(0, 0, 0, 0.00) 100%);
+    
+}
+nav{
+    margin-top: 1%; 
+}
+ul{
+    display: flex;
+    gap: 35px;
+    padding: 0 8px;
+}
+li{
+    list-style: none;
+}
+ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.logo img{
+    margin-left: 18%;
+    margin-top: 3%;
+    width: 50%;
+}
+.hero2{
+  /* background-color: rgb(202, 202, 27); */
+  width:600px;
+  color: #fff;
+margin-top: 6%;
+margin-left: 5%;
+}
+h1{
+    font-size: 60px;
+   
+}
+.pahero{
+    font-size: 21px;
+    margin-bottom: 20px;
+
+}
+.oerderhero{
+    background-color: #B77E66;
+    color: #fff;
+    padding: 13px 18%;
+    border-radius: 8px;
+    border: none;
+    margin: 15px 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+/* fin section hero */
+/* costumres */
+.costumes{
+    background-image: url(photoprof/costumers.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.whtcostm{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    padding: 6% 0;
+  
+
+}
+.cintent{
+    color: #fff;
+    font-family: 'Lexend';
+   font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; 
+}
+.line{
+width: 226px;
+height: 1px;
+background: #D3D2D2;
+}
+.cards-custmer{
+ display: flex;
+justify-content: center;
+align-items: center;
+gap: 28px;
+}
+.card-cost{
+    width: 335px;
+height: 280px;
+border-radius: 5px;
+background: rgba(88, 49, 21, 0.99);
+text-align: center;
+}
+.card-cost h3{
+    font-family: 'Lexend';
+    color: #fff;
+    text-align: center;
+    width: 55%;
+    margin: 0 25%;
+    padding-top: 10%;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 150%;
+    /* background-color: #903711; */
+}
+.card-cost p{
+    color: #D3CECE;
+    font-family: 'Lexend', sans-serif;
+    font-size: 15px;
+    line-height: 150%; 
+
+}
+.card-cost span{
+    color: #54DD8B;
+    font-family: 'Lexend';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+
+    
+}
+.card-cost p img{
+    margin-top: 5%;
+}
+/* fin coustmer */
+/* footer */
+footer {
+    background-image: url('photoprof/FOOTERIMAGE.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     position: relative;
+   
+}
+footer .background{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: rgba(29, 23, 20, 0.84);
+}
+footer .container{
+    display: flex;
+    justify-content: center;
+  margin: 10%;
+  z-index: 1;
+}
+.footer-hero{
+    display: flex;
+ justify-content: center;
+ align-items: center;
+    gap: 160px;
+    width: 100%;
+   
+}
+.card-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+   
+}
+.card-footer a{
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2.3px;
+    text-transform: capitalize;
+}
+.footerparg{
+    z-index: 1 ;
+}
+.footerparg p{
+    color: #ffff;
+    margin-top: 10%;
+  
+}
+
+
+/* fin footer */
