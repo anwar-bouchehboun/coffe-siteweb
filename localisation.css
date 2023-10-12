@@ -79,7 +79,7 @@ h1{
     color: #B77E66;
 }
 /* fin section hero */
-/* costumres */
+/* location Morrocoo */
 .costumes{
     background-image: url(photoprof/costumers.png);
     background-size: cover;
@@ -122,6 +122,10 @@ height: 280px;
 border-radius: 5px;
 background: rgba(88, 49, 21, 0.99);
 text-align: center;
+transition:  300ms ease-out;
+}
+.card-cost:hover{
+    transform: translateY(-20px);
 }
 .card-cost h3{
     font-family: 'Lexend';
