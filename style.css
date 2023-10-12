@@ -208,6 +208,10 @@ text-transform: capitalize;
     border-radius: 20px;
     padding: 15px 1% 0;
     background-color: #734A39;
+    transition: 300ms ease-in ;
+}
+.CradMenu:hover{
+    transform: translateY(-20px);
 }
 .CradMenu img{
     border-radius: 20px;
@@ -275,6 +279,7 @@ height: 300px;
 background: rgba(88, 49, 21, 0.57);
 box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.25);
 text-align: center;
+transition: 300ms ease-in-out;
 }
 .card-cost h3{
     font-family: 'Lexend';
@@ -305,6 +310,9 @@ text-align: center;
     line-height: 150%; 
     
 }
+ .card-cost:hover{
+    transform: translateY(-20px);
+ }
 /* fin coustmer */
 /* localisation */
 .localisation{

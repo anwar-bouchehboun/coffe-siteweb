@@ -95,6 +95,12 @@ font-weight: 400;
   
 
 }
+.content_heues{
+    transition: 300ms ease-in;
+}
+.content_heues:hover{
+    transform: translateY(-20px);
+}
 /* Opening_heues */
 /* our Menu */
 .menu{
@@ -169,6 +175,10 @@ text-transform: capitalize;
     align-items: center;
     gap: 20px;
     overflow: hidden;
+    transition:  300ms ease-in;
+}
+.CradMenu:hover{
+ transform: translateY(-20px);
 }
 .CradMenu .content{
     display: flex;
