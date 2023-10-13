@@ -83,7 +83,11 @@ color: #FFF;
 padding: 34px 44px;
 font-size: 40px;
 font-weight: 400;
+transition:  200ms ease-in-out;
 
+}
+.opeintext:hover{
+    transform: translateY(-20px);
 }
 .herue{
     display: flex;
