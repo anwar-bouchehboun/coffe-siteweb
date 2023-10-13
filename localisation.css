@@ -127,7 +127,7 @@ transition:  300ms ease-out;
 .card-cost:hover{
     transform: translateY(-20px);
 }
-.card-cost h3{
+.card-cost h2{
     font-family: 'Lexend';
     color: #fff;
     text-align: center;
